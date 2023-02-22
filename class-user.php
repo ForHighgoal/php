@@ -6008,9 +6008,9 @@ class User
           }
           $post['live'] = $get_live->fetch_assoc();
           /* generate new audience agora (uid|token) */
-          $agora = $this->agora_token_builder(false, $post['live']['agora_channel_name']);
-          $post['live']['agora_audience_uid'] = $agora['uid'];
-          $post['live']['agora_audience_token'] = $agora['token'];
+          // $agora = $this->agora_token_builder(false, $post['live']['agora_channel_name']);
+          // $post['live']['agora_audience_uid'] = $agora['uid'];
+          // $post['live']['agora_audience_token'] = $agora['token'];
           break;
 
         case 'photos':
